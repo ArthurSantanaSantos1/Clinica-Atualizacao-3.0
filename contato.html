@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato - Ventury Odonto</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="img/logoV.jpeg" type="image/jpeg">
+</head>
+<!-- Contact Sidebar -->
+<div class="contact-sidebar">
+    <div class="sidebar-tab">
+        <i class="fas fa-tooth"></i>
+        Agende sua consulta
+    </div>
+    <div class="sidebar-content">
+        <h3>
+            <i class="fas fa-calendar-check"></i>
+            Agende sua consulta
+        </h3>
+        
+        <div class="sidebar-contact-item">
+            <div class="sidebar-contact-icon">
+                <i class="fas fa-phone"></i>
+            </div>
+            <div class="sidebar-contact-info">
+                <strong>Telefone</strong>
+                <a href="tel:+5561935220834">(61) 93522-0834</a>
+            </div>
+        </div>
+        
+        <div class="sidebar-contact-item">
+            <div class="sidebar-contact-icon">
+                <i class="fas fa-clock"></i>
+            </div>
+            <div class="sidebar-contact-info">
+                <strong>Horário de Funcionamento</strong>
+                <span style="font-size: 0.85rem; line-height: 1.6;">
+                    <strong style="color: var(--vinho); font-size: 0.8rem;">Segunda e Quinta:</strong> 8h às 20h<br>
+                    <strong style="color: var(--vinho); font-size: 0.8rem;">Terça, Quarta e Sexta:</strong> 8h às 18h<br>
+                    <strong style="color: var(--vinho); font-size: 0.8rem;">Sábado:</strong> 8h às 12h
+                </span>
+            </div>
+        </div>
+        
+        <a href="https://wa.me/+5561994163482/?text=Ol%C3%A1%21+Tenho+interesse+no+atendimento+e+gostaria+de+mais+informa%C3%A7%C3%B5es%21" target="_blank" class="sidebar-whatsapp-btn">
+            <i class="fab fa-whatsapp"></i>
+            Agendar pelo WhatsApp
+        </a>
+    </div>
+</div>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img src="img/logo.jpeg" alt="Ventury Odonto">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="index.html">Início</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="tratamentos.html">Tratamentos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="equipe.html">Nossa Equipe</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="feedback.html">Feedback</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contato.html">Contato</a>
+                    </li>
+                </ul>
+                <a href="https://wa.me/5561994163482" target="_blank" class="navbar-whatsapp">
+                    <i class="fab fa-whatsapp"></i>
+                    (61) 99416-3482
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content text-center">
+                <h1>Entre em Contato</h1>
+                <p>Estamos prontos para cuidar do seu sorriso</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section>
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-lg-6">
+                    <h2 class="section-title text-start">Envie sua Mensagem</h2>
+                    <p class="section-subtitle text-start">Preencha o formulário abaixo e entraremos em contato em breve</p>
+                    
+                    <form action="https://formsubmit.co/venturyodontologia@gmail.com" method="POST">
+
+                        <div class="mb-3">
+                            <label class="form-label">Nome Completo</label>
+                            <input type="text" class="form-control" name="nome" required>
+                        </div>
+
+                        <div class="mb-3">
+                            <label class="form-label">E-mail</label>
+                            <input type="email" class="form-control" name="email" required>
+                        </div>
+
+                        <div class="mb-3">
+                            <label class="form-label">Telefone</label>
+                            <input type="tel" class="form-control" name="telefone" required>
+                        </div>
+
+                        <div class="mb-3">
+                            <label class="form-label">Mensagem</label>
+                            <textarea class="form-control" name="mensagem" rows="5" required></textarea>
+                        </div>
+
+                        <!-- Configurações extras -->
+                        <input type="hidden" name="_subject" value="Nova mensagem do site">
+                        <input type="hidden" name="_captcha" value="false">
+
+                        <button type="submit" class="btn btn-submit">Enviar Mensagem</button>
+
+                    </form>
+
+                </div>
+                
+                <div class="col-lg-6">
+                    <h2 class="section-title text-start">Informações de Contato</h2>
+                    <p class="section-subtitle text-start">Você também pode entrar em contato pelos canais abaixo</p>
+                    
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fab fa-whatsapp"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h4>WhatsApp</h4>
+                                <a href="https://wa.me/+5561994163482/?text=Ol%C3%A1%21+Tenho+interesse+no+atendimento+e+gostaria+de+mais+informa%C3%A7%C3%B5es%21">(61) 9416-3482</a>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h4>Telefone</h4>
+                                <a href="tel:+5561935220834">(61) 93522-0834</a>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h4>E-mail</h4>
+                                <a href="https://mail.google.com/mail/?view=cm&fs=1&to=venturyodontologia@gmail.com">venturyodontologia@gmail.com</a>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fab fa-instagram"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h4>Instagram</h4>
+                                <a href="https://www.instagram.com/ventury.odonto/" target="_blank">@ventury.odonto</a>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-link"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h4>Linktree</h4>
+                                <a href="https://linktr.ee/venturyodontologia" target="_blank">Todos os nossos links</a>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h4>Endereço</h4>
+                                <p>Edifício Le Quartier, Sala 734 – Águas Claras/DF</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="map-container mt-4">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3863.2939684671073!2d-48.027276!3d-15.840559!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x935a331ac438e3c1%3A0x7ee0961c13be1954!2sVentury%20Odontologia%20%7C%20Dentista%20em%20%C3%81guas%20Claras!5e1!3m2!1spt-BR!2sus!4v1761171228179!5m2!1spt-BR!2sus" allowfullscreen="" loading="lazy"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div>
+                    <h4>Ventury Odonto</h4>
+                    <p>O seu melhor sorriso começa aqui</p>
+                </div>
+                <div class="footer-address-center">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <span>Edifício Le Quartier, Sala 734 – Águas Claras/DF</span>
+                </div>
+                <div class="footer-social">
+                    <a href="https://www.instagram.com/ventury.odonto/" target="_blank" title="Instagram">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="https://wa.me/+5561994163482/?text=Ol%C3%A1%21+Tenho+interesse+no+atendimento+e+gostaria+de+mais+informa%C3%A7%C3%B5es%21" target="_blank" title="WhatsApp">
+                        <i class="fab fa-whatsapp"></i>
+                    </a>
+                    <a href="tel:+5561935220834" title="Telefone">
+                        <i class="fas fa-phone"></i>
+                    </a>
+                    <a href="https://mail.google.com/mail/?view=cm&fs=1&to=venturyodontologia@gmail.com" title="E-mail">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 Ventury Odonto — Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
